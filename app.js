@@ -78,7 +78,7 @@ function openToolkitFileReader(source, width, height, transformation) {
     toolkit.find('#image-toolkit-save').on('click', function () {
         var data = JSON.stringify(picture.guillotine('getData'));
         transformation.val(data);
-        // toolkit.modal('hide');
-        toolkit.hide();
+        toolkit.modal('hide');
+        // toolkit.hide();
     });
 }
