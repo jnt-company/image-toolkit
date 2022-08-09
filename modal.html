@@ -1,0 +1,40 @@
+<div id="image-toolkit" class="modal fade" data-backdrop="static">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="guillotine-picture" class="img-fluid" />
+
+                <div class="controls">
+                    <ul class="pl-0 d-flex justify-content-around">
+                        <li>Rotate Left</li>
+                        <li>Zoom Out</li>
+                        <li>Fit Image</li>
+                        <li>Zoom In</li>
+                        <li>Rotate Right</li>
+                    </ul>
+                    <div class="tool-icons d-flex justify-content-around w-100">
+                        <a id="rotate_left" title="Rotate Counter-Clockwise"
+                            ><i class="fas fa-undo"></i></a
+                        ><a id="zoom_out" title="Zoom Out"
+                            ><i class="fa fa-search-minus fa-lg"></i></a
+                        ><a id="fit" title="Fit Image"><i class="fa fa-arrows-alt fa-lg"></i></a
+                        ><a id="zoom_in" title="Zoom In"><i class="fa fa-search-plus fa-lg"></i></a
+                        ><a id="rotate_right" title="Rotate Clockwise"
+                            ><i class="fas fa-redo"></i
+                        ></a>
+                    </div>
+                    <p style="padding: 10px">
+                        <b>Larger</b> photos than needed will result in a better quality photo.
+                        Also, we encourage you to only <b>scale once</b>, as consecutive scales can
+                        <b>reduce quality</b>.
+                    </p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a id="close" href="#" class="btn" data-bs-dismiss="modal" data-dismiss="modal"
+                    >Close</a
+                ><a id="image-toolkit-save" href="#" class="btn btn-primary">Save Photo</a>
+            </div>
+        </div>
+    </div>
+</div>
