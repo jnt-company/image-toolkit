@@ -16,7 +16,11 @@ $(document).ready(function () {
 
         var width = $(this).data('width');
         var height = $(this).data('height');
-        var transformation = $('#' + $(this).data('transformation'));
+        if ($(this).data('transformation')) {
+            var transformation = $('#' + $(this).data('transformation'));
+        } else {
+            var transformation = $('#' + $(this).attr('name') + '_transformation');
+        }
 
         var test = new Image();
         test.src = img;
