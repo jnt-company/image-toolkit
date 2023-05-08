@@ -1,6 +1,6 @@
 {
   "name": "jnt-image-toolkit",
-  "version": "1.0.2",
+  "version": "1.1.1",
   "description": "Toolkit for croping & resizing images",
   "main": "index.js",
   "scripts": {
