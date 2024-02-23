@@ -1,0 +1,5 @@
+include:
+  - project: 'jnt-company/gitlab-templates'
+    file:
+      - 'ci_templates/npm.yml'
+      - 'ci_templates/npm-audit.yml
